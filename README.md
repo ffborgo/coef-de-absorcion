@@ -1,4 +1,4 @@
-# Análisis de Datos Experimentales de absorción de radiación gamma
+# Análisis de datos experimentales de absorción de radiación gamma
 
 Este repositorio contiene un análisis de datos experimentales de absorción de radiación gamma para diferentes isotopos (Cs-137, Na-22 y Ba-133), utilizando técnicas de integración numérica y ajuste de modelos. El proyecto se centra en el estudio de la variación de la absorbancia con el espesor de materiales absorbentes y la comparación de diferentes métodos de integración, como la regla del trapecio y la de Simpson.
 
@@ -34,7 +34,7 @@ pip install numpy matplotlib scipy
 
 El proyecto incluye gráficos y modelos ajustados que muestran la relación entre el espesor del absorbente y la absorbancia para cada isotopo. Estos resultados son útiles para entender el comportamiento de los materiales frente a la radiación en diferentes configuraciones experimentales.
 
-![Gráfico final](https://github.com/ffborgo/coef-de-absorcion/blob/main/grafico.png)
+![Gráfico final|500](https://github.com/ffborgo/coef-de-absorcion/blob/main/grafico.png)
 
 ## Cómo Ejecutar
 
