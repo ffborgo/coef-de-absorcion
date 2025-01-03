@@ -34,7 +34,7 @@ pip install numpy matplotlib scipy
 
 El proyecto incluye gráficos y modelos ajustados que muestran la relación entre el espesor del absorbente y la absorbancia para cada isotopo. Estos resultados son útiles para entender el comportamiento de los materiales frente a la radiación en diferentes configuraciones experimentales.
 
-![Gráfico final|500](https://github.com/ffborgo/coef-de-absorcion/blob/main/grafico.png)
+![Gráfico final|300](https://github.com/ffborgo/coef-de-absorcion/blob/main/grafico.png)
 
 ## Cómo Ejecutar
 
