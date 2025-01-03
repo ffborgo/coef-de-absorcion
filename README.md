@@ -1,6 +1,6 @@
 # Determinación del Coeficiente de Atenuación Lineal
 
-Este repositorio contiene el código utilizado para analizar datos experimentales relacionados con la interacción de radiación γ con la materia. El objetivo principal es determinar el coeficiente de atenuación lineal (\( \mu \)) y estudiar la variación de la absorbancia con el espesor de diferentes materiales absorbentes. Además, se comparan métodos de integración numérica, como la regla del trapecio y la de Simpson.
+Este repositorio contiene el código utilizado para analizar datos experimentales relacionados con la interacción de radiación γ con la materia. El objetivo principal es determinar el coeficiente de atenuación lineal $\mu$ y estudiar la variación de la absorbancia con el espesor de diferentes materiales absorbentes. Además, se comparan métodos de integración numérica, como la regla del trapecio y la de Simpson.
 
 ---
 
