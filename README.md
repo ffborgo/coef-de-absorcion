@@ -55,3 +55,7 @@ Ejemplo de gráfico generado:
 ## Contribuciones y uso
 
 Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor crea una nueva rama y sentite libre de modificarlo a tu gusto.
+
+## Referencias
+Los datos utilizados en este análisis fueron tomados del experimento realizado en el curso "Experimentos Cuanticos II" de la UNLP.
+
