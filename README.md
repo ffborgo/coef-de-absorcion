@@ -43,13 +43,4 @@ El proyecto incluye gráficos y modelos ajustados que muestran la relación entr
 
 ## Contribuciones
 
-Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
-
-1. Haz un fork de este repositorio.
-2. Crea una rama (`git checkout -b nueva-caracteristica`).
-3. Realiza tus cambios y asegúrate de que todo funcione correctamente.
-4. Haz un commit de tus cambios (`git commit -am 'Añadir nueva característica'`).
-5. Empuja tus cambios a tu repositorio fork (`git push origin nueva-caracteristica`).
-6. Crea un nuevo Pull Request.
-
-Por favor, asegúrate de que tus cambios sean coherentes con el estilo del proyecto y que no rompan la funcionalidad existente.
+Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor crea una nueva rama y asegurate de que tus cambios sean coherentes con el estilo del proyecto y que no rompan la funcionalidad existente.
