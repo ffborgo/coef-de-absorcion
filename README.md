@@ -1,48 +1,57 @@
-# Análisis de datos experimentales de absorción de radiación gamma
+# Determinación del Coeficiente de Atenuación Lineal
 
-Este repositorio contiene un análisis de datos experimentales de absorción de radiación gamma para diferentes isotopos (Cs-137, Na-22 y Ba-133), utilizando técnicas de integración numérica y ajuste de modelos. El proyecto se centra en el estudio de la variación de la absorbancia con el espesor de materiales absorbentes y la comparación de diferentes métodos de integración, como la regla del trapecio y la de Simpson.
+Este repositorio contiene el código utilizado para analizar datos experimentales relacionados con la interacción de radiación γ con la materia. El objetivo principal es determinar el coeficiente de atenuación lineal (\( \mu \)) y estudiar la variación de la absorbancia con el espesor de diferentes materiales absorbentes. Además, se comparan métodos de integración numérica, como la regla del trapecio y la de Simpson.
+
+---
 
 ## Descripción del Proyecto
 
-El análisis se realiza sobre los espectros de radiación provenientes de los siguientes isotopos radiactivos:
+El análisis se centra en los espectros de radiación emitidos por los siguientes isótopos radiactivos:
 
 - **Cs-137 (661 keV)**  
 - **Na-22 (1275 keV y 511 keV)**  
-- **Ba-133 (160 keV)**
+- **Ba-133 (160 keV)**  
 
-Se procesaron varios archivos de datos de espectros de radiación para diferentes anchos de absorbente. El análisis incluye:
+El proyecto incluye las siguientes etapas principales:
 
-1. **Carga de los Datos**: Los archivos de datos espectrales se cargan y procesan desde un directorio de Google Drive.
-2. **Procesamiento de Datos**: Se extraen las cuentas de cada espectro y se calculan las áreas bajo la curva utilizando los métodos de integración numérica (Trapecio y Simpson).
-3. **Análisis Comparativo**: Se compara la absorbancia a diferentes espesores de material utilizando los métodos mencionados. Se ajusta un modelo lineal a los logaritmos de los cocientes de las áreas integradas.
-4. **Gráficas**: Se generan gráficos de absorbancia versus espesor del material, junto con los ajustes teóricos.
+1. **Carga de Datos**: 
+   - Los espectros de radiación son cargados desde archivos en un directorio de Google Drive.
+   
+2. **Procesamiento de Datos**: 
+   - Se extraen las cuentas de cada espectro.
+   - Se calculan las áreas bajo la curva utilizando métodos de integración numérica (Trapecio y Simpson).
+   
+3. **Análisis Comparativo**: 
+   - Se analiza la absorbancia en función del espesor del material para cada isótopo.
+   - Se ajusta un modelo lineal a los logaritmos de los cocientes de las áreas integradas.
+
+4. **Generación de Gráficos**: 
+   - Se generan gráficos de absorbancia versus espesor, junto con los ajustes lineales y teóricos.
+
+---
 
 ## Requisitos
 
-Para ejecutar este notebook, necesitas las siguientes librerías de Python:
+Para ejecutar este proyecto, necesitas tener instaladas las siguientes bibliotecas de Python:
 
 - `numpy`
 - `matplotlib`
 - `scipy`
 
-Puedes instalar las dependencias con:
+Puedes instalarlas con el siguiente comando:
 
 ```bash
 pip install numpy matplotlib scipy
 ```
+
 ## Resultados
 
-El proyecto incluye gráficos y modelos ajustados que muestran la relación entre el espesor del absorbente y la absorbancia para cada isotopo. Estos resultados son útiles para entender el comportamiento de los materiales frente a la radiación en diferentes configuraciones experimentales.
+El código genera gráficos y modelos ajustados que muestran la relación entre el espesor del absorbente y la absorbancia para cada isótopo analizado. Estos resultados ayudan a comprender el comportamiento de los materiales frente a la radiación en diferentes configuraciones experimentales.
+
+Ejemplo de gráfico generado:
 
 <img src="https://github.com/ffborgo/coef-de-absorcion/blob/main/grafico.png" alt="Gráfico final" style="width: 60%; max-width: 500px;">
 
-## Cómo Ejecutar
+## Contribuciones y uso
 
-1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone https://github.com/ffborgo/coef-de-absorcion.git
-   ```
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor crea una nueva rama y asegurate de que tus cambios sean coherentes con el estilo del proyecto y que no rompan la funcionalidad existente.
+Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor crea una nueva rama y sentite libre de modificarlo a tu gusto.
